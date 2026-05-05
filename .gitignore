@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local config (derived from env.example.sh)
+env.sh
+
+# Run-time outputs
+outputs/
+*.log
+*.pt
+*.ckpt
+*.pth
+*.pkl
+
+# Misc
+*.swp
+*~
